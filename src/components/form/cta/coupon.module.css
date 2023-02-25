@@ -1,0 +1,72 @@
+.coupon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 3rem 0 0 0;
+  background-color: inherit;
+  color: var(--color-secondary);
+  border-radius: 0.5rem;
+}
+
+.coupon-container p + p {
+  margin-top: 1rem;
+}
+
+.coupon-form {
+  margin: 2rem 0 0 0;
+}
+
+.coupon-name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--color-accent)
+}
+
+.coupon-disclaimer {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+.coupon-text {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.coupon-input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 300;
+  text-align: center;
+}
+.coupon-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.coupon-button {
+  width: 100%;
+  max-width: 254px;
+  padding: var(--button-with-text-padding);
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-accent);
+  color: var(--color-secondary);
+  font-size: 1.25rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 2rem;
+}
