@@ -1,0 +1,28 @@
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 250px;
+  flex: 1;
+  background-color: var(--color-primary);
+  margin: 2rem 0 1rem;
+}
+
+
+.image-container img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+  filter: saturate(0);
+}
+
+.complexity-description {
+  color: var(--color-faded-secondary);
+  text-align: justify;
+  font-size: 0.8rem;
+  font-weight: light;
+
+}
