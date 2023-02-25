@@ -1,0 +1,4 @@
+cover.jpg: https://unsplash.com/pt-br/@benjaminlehman
+easy.webp: https://www.tattoodo.com/artists/charlotte.dot_tattoos
+medium.webp: https://www.tattoodo.com/artists/scummotattoo
+hard.webp: https://www.tattoodo.com/artists/tessavonvon
